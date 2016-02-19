@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<addon id="context.salts.opposite" version="1.0.0" name="Salts do opposite" provider-name="wason9.2">
+    <requires>
+        <import addon="xbmc.python" version="2.2.0"/>
+        <import addon="plugin.video.salts" version="2.0.0"/>
+    </requires>
+    <extension point="kodi.context.item" library="addon.py">        
+      <item>
+        <label>Salts do opposite</label>
+        <visible>StringCompare(ListItem.dbtype,movie) | StringCompare(ListItem.dbtype,episode)</visible>
+      </item>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <summary>Does the opposite of salts default autoplay</summary>
+        <description>Code is taken from SALTS Context Menu tools. All credits tknorris. When activated on a salts movie or episode library item, will do opposite of salts default auto play setting. When autoplay is enabled it will open source selection, when autoplay is disabled it will autoplay</description>
+        <platform>all</platform>
+    </extension>
+</addon>

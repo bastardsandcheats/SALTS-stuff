@@ -1,0 +1,24 @@
+V0.0.7      17/02/2016
+    Open SALTS settings when called from somewhere that a SALTS item
+    try to make it script more robust
+
+V0.0.6      14/02/2016
+    dont stop current video
+    code fixes
+
+V0.0.5      14/02/2016
+    Code fixes
+    try backup max quality incase of failure
+    stop current video when starting autoplay
+
+V0.0.4      13/02/2016
+    Fix silly mistake
+
+V0.0.3      13/02/2016
+    actions to keep change persistent 
+
+V0.0.2      12/02/2016
+    Remove redundant code
+
+V0.0.1      12/02/2016
+    Seems to work as it should

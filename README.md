@@ -1,2 +1,1 @@
-# SALTS-stuff
-Few things for salts
+A few things I find usefull for salts

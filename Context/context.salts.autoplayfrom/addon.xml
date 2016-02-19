@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<addon id="context.salts.autoplayfrom" version="0.0.7" name="Autoplay starting from" provider-name="wason9.2">
+    <requires>
+        <import addon="xbmc.python" version="2.2.0"/>
+        <import addon="plugin.video.salts" version="2.0.0"/>
+    </requires>
+    <extension point="kodi.context.item" library="addon.py">        
+      <item>
+        <label>Autoplay starting from</label>
+        <visible>StringCompare(ListItem.dbtype,movie) | StringCompare(ListItem.dbtype,episode) | StringCompare(ListItem.dbtype,tvshow) | StringCompare(ListItem.dbtype,season)</visible>
+      </item>
+    </extension>    
+    <extension point="xbmc.addon.metadata">
+        <summary>SALTS - Library autoplay from selected quality</summary>
+        <description>Opens dialogue to select a maximum quality to autoplay from</description>
+        <platform>all</platform>
+        <forum>https://forums.tvaddons.ag/tknorris-release-repository/</forum>
+    </extension>
+</addon>
