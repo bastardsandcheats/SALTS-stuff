@@ -13,6 +13,8 @@ My prefer method of activating it is from a key
 http://kodi.wiki/view/Keymap
 
 Putting this in keymap.xml will activate the script when you press ctrl, shift + enter on a library item.
+
+```
 <keymap>
     <videos>
         <keyboard>
@@ -20,5 +22,6 @@ Putting this in keymap.xml will activate the script when you press ctrl, shift +
         </keyboard>
     </videos>
 </keymap>
+```
 
 Code is taken from SALTS Context Tools and all credits go to TKnorris
