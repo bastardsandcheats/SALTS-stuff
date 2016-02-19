@@ -5,7 +5,9 @@ Choosing quality just once should automatically set the max quality back to what
 
 Choosing quality always will keep the change
 
-http://i.imgur.com/kPF5saw.jpg
+
+![alt text](http://i.imgur.com/kPF5saw.jpg "Screenshot")
+
 
 You can also activate it straight from a key by editing your keymap.xml
 http://kodi.wiki/view/Keymap
