@@ -11,6 +11,8 @@ You can also activate it straight from a key by editing your keymap.xml
 http://kodi.wiki/view/Keymap
 
 Putting this in keymap.xml will activate the script when you press ctrl+enter on a library item.
+
+```
 <keymap>
     <videos>
         <keyboard>
@@ -18,6 +20,7 @@ Putting this in keymap.xml will activate the script when you press ctrl+enter on
         </keyboard>
     </videos>
 </keymap>
+```
 
 SALTS has a setting for max mv and ep quality, this just sets it to whatever then start autoplay.
 timeout in addon.py is the time untill it sets the quality back to normal when selecting just once.
